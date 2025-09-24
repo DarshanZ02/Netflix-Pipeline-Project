@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/DarshanZ02/Netflix-Pipeline-Project.git'
+                git branch: 'master', url: 'https://github.com/DarshanZ02/Netflix-Pipeline-Project.git'
             }
         }
         stage('Maven Build') {
